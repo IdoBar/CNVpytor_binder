@@ -5,6 +5,7 @@ channels:
   - r
 dependencies:
   - cnvpytor
+  - h5py<3.2
   - r-base=3.6.1
 #  - r-base=4.1.1
   - r-devtools
