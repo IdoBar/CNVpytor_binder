@@ -1,0 +1,28 @@
+name: cnvpytor
+channels:
+  - conda-forge
+  - bioconda
+  - r
+dependencies:
+  - cnvpytor
+  - r-base=3.6.1
+#  - r-base=4.1.1
+  - r-devtools
+  - r-remotes
+  - r-tidyverse
+  - r-pacman
+  - r-shiny
+  - r-rmarkdown
+  - r-bookdown
+  - r-ggpubr
+  - r-gtsummary
+  - r-skimr
+ # - r-rcpp
+  - r-paletteer
+  - r-scales
+  - r-here
+  - r-htmltools
+  - r-plotly
+  - r-lubridate
+  - r-patchwork
+  - pandoc

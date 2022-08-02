@@ -1,0 +1,9 @@
+#!/bin/bash 
+#PBS -V
+
+cd $WORKDIR
+>&2 echo Current working directory: $PWD
+source ~/.bashrc
+conda activate cnv 
+set -Eeo pipefail
+gawk -v ARRAY_IND=$PBS_ARRAY_INDEX 'NR==ARRAY_IND' $CMDS_FILE | bash
