@@ -6,7 +6,7 @@
 
 # Analysis of CNVpytor results (Binder-ready)
 
-This repository was developed for te interactive analysis and visualisation of genome-wide copy number variations (CNV)
+This repository was developed for the interactive analysis and visualisation of genome-wide copy number variations (CNV)
 from Whole-Genome-Sequencing (WGS) data using [CNVpytor](https://github.com/abyzovlab/CNVpytor) [1].
 
 ## Instructions
